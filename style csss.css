@@ -101,6 +101,7 @@ header nav ul li a
 }    
 .button-1
 {
+    transition: 0.3s;
     width:120px;
     display:block;
     height:50px;
@@ -112,6 +113,10 @@ header nav ul li a
     line-height: 50px;
     text-align: center;
     border-radius: 3px;
+}
+.button-1:hover {
+    background: #5d3504;
+    transform: scale(1.1);
 }
 
 /* STEPS */
